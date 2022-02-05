@@ -4,7 +4,7 @@
         <!-- Logo -->
         <!-- ============================================================== -->
         <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="{{url("/")}}">
                 <!-- Logo icon --><b>
                     <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                     <!-- Dark Logo icon -->
@@ -30,16 +30,16 @@
                 <!-- ============================================================== -->
                 <!-- Search -->
                 <!-- ============================================================== -->
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <form class="app-search d-none d-md-block d-lg-block">
                         <input type="text" class="form-control" placeholder="Search & enter">
                     </form>
-                </li>
+                </li> --}}
             </ul>
             <!-- ============================================================== -->
             <!-- User profile and search -->
             <!-- ============================================================== -->
-            <ul class="navbar-nav my-lg-0">
+            {{-- <ul class="navbar-nav my-lg-0">
                 <!-- ============================================================== -->
                 <!-- Comment -->
                 <!-- ============================================================== -->
@@ -267,7 +267,7 @@
                 <!-- End User Profile -->
                 <!-- ============================================================== -->
                 <li class="nav-item right-side-toggle"> <a class="nav-link  waves-effect waves-light" href="javascript:void(0)"><i class="ti-settings"></i></a></li>
-            </ul>
+            </ul> --}}
         </div>
     </nav>
 </header>
